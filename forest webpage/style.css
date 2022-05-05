@@ -1,31 +1,95 @@
-htmml {
+html {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+@font-face {
+  font-family: FromtheWoods;
+  src: url("./FromtheWoods-Regular.woff2");
 }
 
 h1 {
-  text-align: center;
-  font-size: 3.5em;
+  font-size: 4em;
+  color: white;
+  font-family: "FromtheWoods";
+}
+h2 {
+  color: white;
 }
 
+p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
 body {
   background-image: url("bg.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 80%;
+}
+.header {
+  margin-bottom: 5em;
+  text-align: center;
 }
 
 .circles {
   display: flex;
-  width: 43em;
-  height: 15em;
+  flex-direction: row;
+  width: 100%;
 }
 
-.circles__circle {
-  background-color: green;
-  border-radius: 50%;
+.column1 {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.column2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.circle {
+  width: 25em;
+  height: 25em;
+  border-radius: 50%;
+  background-color: #4f6a13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer {
+  background-color: #2d4823;
+  padding-top: 5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.text-center {
+  width: 80%;
+  color: #d3d3d3;
+}
+
+.img {
+  height: 100px;
 }

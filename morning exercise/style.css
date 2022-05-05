@@ -1,0 +1,33 @@
+nav a {
+  color: crimson;
+}
+
+.about blockquote {
+  background-color: #eaeaea;
+}
+
+.users span:nth-last-of-type(2) {
+  color: crimson;
+}
+.user span {
+  font-weight: bold;
+}
+.creators .link {
+  font-family: "PT Serif", serif;
+}
+
+.creators .link .font {
+  font-family: "Lato", sans-serif;
+}
+
+.cta h2 {
+  color: crimson;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
