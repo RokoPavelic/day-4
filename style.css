@@ -3,26 +3,32 @@ a {
   color: crimson;
 }
 
-blockquote {
+.about blockquote {
   background-color: #eaeaea;
 }
 
-.users,
-span {
+.users span:nth-last-of-type(2) {
+  color: crimson;
+}
+.user span {
   font-weight: bold;
 }
-
-.creators,
-a {
+.creators .link {
   font-family: "PT Serif", serif;
-  font-weight: bold;
 }
 
-#cta {
+.creators .link .font {
+  font-family: "Lato", sans-serif;
+}
+
+.cta h2 {
   color: crimson;
   font-family: "Lato", sans-serif;
 }
 
 nav {
   display: inline-block;
+}
+a {
+  text-decoration: none;
 }
